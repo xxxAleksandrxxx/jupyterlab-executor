@@ -18,12 +18,12 @@
         "items": { "$ref": "#/definitions/executor" },
         "default": [
           {
-              "name": "bash",
-              "command": "bash {path} {args}"
+              "name": "python",
+              "command": "python '{path}' {args}"
           },
           {
-              "name": "python",
-              "command": "python {path} {args}"
+              "name": "bash",
+              "command": "bash '{path}' {args}"
           }
         ]
       }
